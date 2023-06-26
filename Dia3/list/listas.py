@@ -1,4 +1,5 @@
 #Son mutables y pueden tener varios tipos de datos
+#ordenados y admite duplicados
 mi_lista=['a','b','c']
 mi_lista2=['d','e','f']
 mi_lista3=mi_lista+mi_lista2

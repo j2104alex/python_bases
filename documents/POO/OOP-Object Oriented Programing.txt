@@ -1,0 +1,35 @@
+OOP-Object Oriented Programing:
+Facilidad de mantenimiento y actualización
+Flexibilidad en uso
+-------------------------------------
+CLASES:
+Tienen
+-Atributos: Hay de dos tipos
+	-De clase: propios de esta para todos los objetos de 	clase
+	-De instancia: Pertenecen a la instancia u objeto, 	distintos de cada clase
+		Ejemplo: Color, uno puede ser negro, otro rojo
+
+-Metodos:Hay de tipos
+	-De instancia:se crean usando def mi_metodo(self):
+		*Acceden y modifican atributos del objeto
+		*Acceden a otros metodos
+		*Modificar estado de la clase
+	-De clase @classmethod decorador y def mi_metodo(cls)
+		*No acceden a atributos de instancia pero si los de la clase
+	-Estaticos @staticmethod def mi_metodo()
+		*No modifican estado de clase ni instancia
+
+Un objeto es la instancia de la clase
+-------------------------------------
+6 PRINCIPIOS o PILARES BASICOS:
+-Herencia: Que una clase hija herede de una clase padre metodos y atributos, sobreescribirlos y crear nuevos.Puede tener metodos la clase hija:
+	-Metodos heredados por la clase padre
+	-Metodos heredados pero modificados
+	-Metodos nuevos
+	NOTA: Existe herencia extendida y herencia múltiple
+-Polimorfismo
+-Cohesion
+-Abstracción
+-Acoplamiento
+-Encapsulamiento
+'''
